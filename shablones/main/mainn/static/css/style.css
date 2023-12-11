@@ -1,0 +1,31 @@
+.win {
+	font-size: 20px;
+	font-family: "Times New Roman", Times, serif;
+	max-width: 350px;
+	max-height: 600px;
+	background: #9c9c9c;
+	border-right: 2px solid #5c5c5c;
+	border-bottom: 2px solid #5c5c5c;
+	border-radius: 5px;
+}
+
+.win p {
+	padding: 5px;
+	color: #1c1c1c;
+}
+
+.firstst {
+	position: relative;
+	left: 0px;
+}
+
+.secst {
+	position: relative;
+	left: 170px;
+	top: -46px;
+}
+
+.inpinfo {
+	margin-left: 10px;
+	margin-top: 5px;
+}

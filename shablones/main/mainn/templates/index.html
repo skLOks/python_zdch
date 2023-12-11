@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css">
+	<title>Document</title>
+</head>
+<body>
+	<div class="win">
+		<p>Где учусь: {{PlaceOfSudy}}</p>
+		<p>Группа: {{Group}}</p>
+		<p>Специальность: {{Specialization}}</p>
+		<p>Кем хочу стать после выпуска: {{InfoForMe}}</p>
+	</div>
+	<a href="form/">Регестрация</a>
+	<br>
+	<p>Если что я не понял формулировки "подключить  форму на главную страницу с помощью встроенных тегов.
+", поэтому делаю как понял</p>
+</body>
+</html>
